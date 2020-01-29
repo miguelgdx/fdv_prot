@@ -30,4 +30,4 @@ Use the "A" & "D" keys to move left or right.<br/>Hold Shift to run.<br/>Press t
 Perhaps one of the biggest difficulties I found was how to handle collisions when we had bodies that were subject to the physics. I had to make a neat script that would disable collisions between colliders to match my needs. So basicly (and really summed up), everything that is not an allowed collision, is to be ignored. That is, we set which objects can collide with others before starting the game so that the script will disable the rest at the start.
 If an object only has a trigger collider, then it can be skipped out (it won't even have the script).
 
-![](sc2.jpg)
+![](sc2.JPG)
